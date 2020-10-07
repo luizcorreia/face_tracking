@@ -72,7 +72,7 @@ gltfLoader.load(gltfUrl, (gltf) => {
 });
 
 // Let's add some lighting, first a directional light above the model pointing down
-const directionalLight = new THREE.DirectionalLight("white", 0.8);
+const directionalLight = new THREE.DirectionalLight("white", 0.9);
 directionalLight.position.set(0, 5, 0);
 directionalLight.lookAt(0, 0, 0);
 scene.add(directionalLight);
